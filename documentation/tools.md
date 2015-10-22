@@ -1,7 +1,22 @@
 # Tools of the trade
 
-TODO: table of contents with anchor links?
+Table of contents:
 
+<!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Tools of the trade](#tools-of-the-trade)
+	- [JavaScript](#javascript)
+	- [CSS](#css)
+	- [Task running](#task-running)
+	- [Content management](#content-management)
+	- [Code/text editor](#codetext-editor)
+	- [Version control](#version-control)
+	- [Local development environment](#local-development-environment)
+	- [Graphical manipulation](#graphical-manipulation)
+	- [Video conversion](#video-conversion)
+	- [Hosting](#hosting)
+	- [Database](#database)
+<!-- /TOC -->
 
 ## JavaScript
 
