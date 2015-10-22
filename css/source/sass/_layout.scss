@@ -1,0 +1,23 @@
+.width-limit {
+	max-width: 75rem; // ≈ 1500px
+	margin: 0 auto;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+
+	@include mq($mq-S-minus) {
+		padding-right: 0;
+		padding-left: 0;
+		width: 80%;
+	}
+}
+.page {
+	padding: 9em 0 5em 0;
+
+	@include mq($mq-M) {
+		padding: 11em 0 5em 0;
+	}
+
+	&.page--article {
+		padding-bottom: 0;
+	}
+}

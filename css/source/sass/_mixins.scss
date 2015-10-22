@@ -1,0 +1,128 @@
+/**
+ *
+ * Reduces code for min-width media queries
+ *
+ */
+@mixin mq($size) {
+	@media ('min-width: ' + $size) {
+		@content;
+	}
+}
+
+/**
+ *
+ * CSS arrows
+ *
+ * @param width           :  px, em
+ * @param height          :  px, em
+ * @param direction       :  up, down, left, right
+ * @param color           :  hex, rgb
+ *
+ * Usage:	.arrow-down {
+ * 				@include arrow(5em, 10em, down, #FFCC66);
+ * 			}
+ *
+ * Source: http://codepen.io/minimalmonkey/pen/KIaGD
+ *
+ */
+@mixin arrow($width: 20px, $height: 20px, $direction: up, $color: red) {
+
+	width: 0;
+	height: 0;
+
+	// Right
+	@if $direction == right {
+		border-top: $height/2 solid transparent;
+		border-bottom: $height/2 solid transparent;
+		border-left: $width solid $color;
+	}
+
+	// Left
+	@if $direction == left {
+		border-top: $height/2 solid transparent;
+		border-bottom: $height/2 solid transparent;
+		border-right: $width solid $color;
+	}
+
+	// Up
+	@if $direction == up {
+		border-left: $width/2 solid transparent;
+		border-right: $width/2 solid transparent;
+		border-bottom: $height solid $color;
+	}
+
+	// Down
+	@if $direction == down {
+		border-left: $width/2 solid transparent;
+		border-right: $width/2 solid transparent;
+		border-top: $height solid $color;
+	}
+
+}
+
+
+/**
+ *
+ * Prevent collapsing of the height of the container of floated elements.
+ *
+ */
+@mixin clear-float {
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+
+/**
+ *
+ * Hides text inside an element. This way the text is still available for SEO and accessability.
+ *
+ */
+@mixin hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+/**
+ *
+ * Animate an underline on hover over the element.
+ *
+ */
+@mixin animated-hover-underline($position-bottom: -0.2em, $line-thickness: 2px, $line-color: #000) {
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: $position-bottom;
+		left: 0;
+		// width: 0;
+		width: 100%;
+		height: 0;
+		border-bottom: $line-thickness solid $line-color;
+		opacity: 0;
+		transform: scaleX(0);
+		transition: all 0.3s ease;
+	}
+	&:hover::after {
+		// width: 100%;
+		opacity: 1;
+		transform: scaleX(1);
+	}
+}
+/**
+ *
+ * Undo if not wanted for a certain instance on which the rule is applied (for example if it's applied to all links but there's one on which you don't need it)
+ *
+ */
+@mixin no-animated-hover-underline() {
+	position: static;
+
+	&::after {
+		content: none;
+	}
+}

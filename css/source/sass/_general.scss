@@ -1,0 +1,33 @@
+.page--article {
+	&.page--blog {
+		background-color: $color-background-light;
+	}
+	&.page--work {
+		color: $color-text-light;
+		background-color: $color-background-dark;
+	}
+}
+
+.title {
+	margin-bottom: 0.25em;
+
+	.page--article.page--work & {
+		color: $color-text-light;
+	}
+}
+.subtitle {
+	margin-bottom: 1em;
+	color: $color-gray-subtitle;
+
+	.page--article.page--work & {
+		color: $color-highlight;
+	}
+}
+.topic-separator {
+	display: block;
+	width: 14%;
+	min-width: 6em;
+	margin: 3em auto 3.5em auto;
+	border: 0;
+	border-top: 1px solid #BFBFBF;
+}

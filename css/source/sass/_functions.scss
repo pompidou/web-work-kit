@@ -1,0 +1,23 @@
+/**
+ *
+ * source: http://vvv.tobiassjosten.net/css/px-to-em-with-sass/
+ *
+ **/
+@function pxToEm($px, $base, $unit: em) {
+	@return ($px / $base) * 1#{$unit};
+}
+
+
+/**
+ *
+ * Only relevant if you changed the base font size of your html document.
+ *
+ * This function can be useful if you defined your sizes in em based on the base font size
+ * of your html document. And you need them based on the default font size of the browser.
+ * For example in your media queries, because em values in media queries are always
+ * based on the default font size of the browser. (http://css-tricks.com/forums/topic/ems-for-media-queries-and-layout/#post-150307)
+ *
+ **/
+@function emBaseFontSizeToEmDefaultFontSize($em-base, $base, $default: 16px) {
+	@return $em-base * $base / $default;
+}

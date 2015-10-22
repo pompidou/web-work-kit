@@ -1,0 +1,55 @@
+/* sizes */
+$font-size-base:							20px;
+$font-size-assumed-browser-default:			16px;
+
+
+
+/* media query breakpoints */
+// (In media queries the em root is the browser's default font size, not the document base font size (html, body))
+$mq-XS:										0em;
+$mq-XS-plus:								pxToEm(400px, $font-size-assumed-browser-default);
+$mq-S-minus:								pxToEm(500px, $font-size-assumed-browser-default);
+$mq-S:										pxToEm(600px, $font-size-assumed-browser-default);
+$mq-S-plus:									pxToEm(850px, $font-size-assumed-browser-default);
+$mq-M:										pxToEm(1000px, $font-size-assumed-browser-default);
+$mq-L:										pxToEm(1250px, $font-size-assumed-browser-default);
+$mq-XL:										pxToEm(1500px, $font-size-assumed-browser-default);
+
+
+
+/* colors */
+$color-background-light:					#fff;
+$color-background-medium:					#E7ECEA;
+$color-background-dark:						#131313;
+
+$color-navigation-light:					#fff;
+$color-navigation-medium:					#F7F7F7;
+$color-navigation-dark:						#313131;
+
+$color-text-light:							#DADADA;
+$color-text-dark:							#575656;
+
+$color-gray-background:						#E7ECEA;
+$color-gray-subtitle:						#A7ABB1; // #BDC2C9
+$color-gray-site-part-title:				#74777B;
+
+$color-highlight:							#2ecc71; // #E94449
+$color-highlight-dark:						#27ae60;
+
+$color-cv-light:							#D6D6D6;
+$color-cv-dark:								$color-text-dark;
+
+
+
+
+/* animation */
+$easing-in:									cubic-bezier(0.7, 0, 1, 1);
+$easing-out:								cubic-bezier(0, 0, 0.3, 1);
+// $easing-in:									ease-in;
+// $easing-out:								ease-out;
+
+$easing-in-out-more:						cubic-bezier(0.7, 0, 0.3, 1);
+$easing-start-fast-stop-smooth:				cubic-bezier(0.19, 1, 0.22, 1);
+$easing-speedy:								cubic-bezier(0.2, 0.3, 0.25, 0.9); // from medium.com off-canvas nav
+$easing-bounce:								cubic-bezier(0.175, 0.885, 0.32, 1.275); // http://purplerockscissors.com/ next article
+$easing-default:							$easing-start-fast-stop-smooth;
