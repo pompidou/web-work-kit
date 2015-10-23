@@ -10,14 +10,3 @@
 		width: 80%;
 	}
 }
-.page {
-	padding: 9em 0 5em 0;
-
-	@include mq($mq-M) {
-		padding: 11em 0 5em 0;
-	}
-
-	&.page--article {
-		padding-bottom: 0;
-	}
-}

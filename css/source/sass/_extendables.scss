@@ -1,0 +1,17 @@
+%vertical-center-container {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+}
+/**
+ *	In addition to this set a height on the .vertical-center-container element and it will act
+ *	as the min-height.
+ */
+%vertical-center-container--dynamic-height-with-min-height {
+	height: auto;
+}
+%vertical-center-element {
+	display: table-cell;
+	vertical-align: middle;
+}

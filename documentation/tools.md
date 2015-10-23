@@ -2,25 +2,25 @@
 
 Table of contents:
 
-<!-- TOC depth:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+- [JavaScript](#javascript)
+- [CSS](#css)
+- [HTML](#html)
+- [Community support](#community-support)
+- [Task running / automation](#task-running-automation)
+- [Content management](#content-management)
+- [Code/text editor](#codetext-editor)
+- [Version control](#version-control)
+- [Local development environment](#local-development-environment)
+- [Graphical manipulation](#graphical-manipulation)
+- [Video conversion](#video-conversion)
+- [Hosting](#hosting)
+- [Database](#database)
 
-- [Tools of the trade](#tools-of-the-trade)
-	- [JavaScript](#javascript)
-	- [CSS](#css)
-	- [Task running](#task-running)
-	- [Content management](#content-management)
-	- [Code/text editor](#codetext-editor)
-	- [Version control](#version-control)
-	- [Local development environment](#local-development-environment)
-	- [Graphical manipulation](#graphical-manipulation)
-	- [Video conversion](#video-conversion)
-	- [Hosting](#hosting)
-	- [Database](#database)
-<!-- /TOC -->
 
 ## JavaScript
 
 -	<a href="https://modernizr.com/" target="_blank">Modernizr</a> (feature detection)
+-	<a href="http://vuejs.org/" target="_blank">Vue.js</a> (reactive data binding)
 
 
 ## CSS
@@ -28,7 +28,17 @@ Table of contents:
 -	<a href="https://necolas.github.io/normalize.css/" target="_blank">normalize.css</a>
 
 
-## Task running
+## HTML
+
+-	<a href="http://emmet.io/" target="_blank">Emmet</a>
+
+
+## Community support
+
+-	<a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a>
+
+
+## Task running / automation
 
 -	<a href="http://gulpjs.com/" target="_blank">Gulp</a>
 -	<a href="http://gruntjs.com/" target="_blank">Grunt</a>
@@ -38,18 +48,32 @@ Table of contents:
 
 ## Content management
 
--	<a href="https://ghost.org/" target="_blank">Ghost</a>
+-	<a href="https://ghost.org/" target="_blank">Ghost</a> (can also be hosted by them)
 -	<a href="https://wordpress.org/" target="_blank">WordPress</a>
 	-	<a href="http://www.advancedcustomfields.com/" target="_blank">Advanced Custom Fields</a>
 -	<a href="https://grabaperch.com/" target="_blank">Perch</a>
+-	<a href="http://pagekit.com/" target="_blank">Pagekit</a>
+-	<a href="http://anchorcms.com/" target="_blank">Anchor</a>
 
-Hosted and access content via API:
+Flat-file CMS (no database):
+-	<a href="http://getgrav.org/" target="_blank">Grav</a>
+-	<a href="http://getkirby.com/" target="_blank">kirby</a>
+-	<a href="http://statamic.com/" target="_blank">Statamic</a>
+-	<a href="https://www.htmly.com/" target="_blank">HTMLy</a>
+-	<a href="http://picocms.org/" target="_blank">Pico</a>
+-	<a href="http://automad.org/" target="_blank">Automad</a>
+-	<a href="http://www.pulsecms.com/" target="_blank">pulse</a>
+
+Hosted with content access via API:
 -	<a href="https://prismic.io/" target="_blank">prismic.io</a>
 -	<a href="https://www.contentful.com" target="_blank">Contentful</a>
 
-Static site generators:
+Static site generators (no ui & no database):
 -	<a href="https://middlemanapp.com/" target="_blank">Middleman</a>
 -	<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+
+Creating a website without coding:
+-	<a href="http://www.squarespace.com/" target="_blank">Squarespace</a>
 
 
 ## Code/text editor
@@ -57,6 +81,7 @@ Static site generators:
 -	<a href="https://atom.io/" target="_blank">Atom</a>
 -	<a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a>
 -	<a href="http://brackets.io/" target="_blank">Brackets</a>
+-	<a href="https://www.jetbrains.com/webstorm/" target="_blank">WebStorm</a>
 -	<a href="http://panic.com/coda-ios/" target="_blank">Coda for iOS</a> (when you need to change something from your phone, includes ftp and ssh terminal)
 
 -	<a href="https://ia.net/writer" target="_blank">iA Writer</a> (minimalist writing experience)

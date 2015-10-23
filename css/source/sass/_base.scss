@@ -1,137 +1,34 @@
-* {
-	padding: 0;
-	margin: 0;
-}
-*, *::before, *::after {
-	box-sizing: border-box;
-}
-/* The following box-sizing reset makes it easier to change the box-sizing
-   for a element and its children. In comparison the reset with the all selector
-   makes it easier to change the box-sizing for a element but not for its children.
-   Source: http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-/* html {
-	box-sizing: border-box;
-}
-*, *::before, *::after {
-	box-sizing: inherit;
-} */
 html {
-	color: $color-text-dark;
-	background-color: $color-background-medium;
-	background-image: url(../../img/src/background/subtle-pattern_concrete-seamless.png);
-	// background-attachment: fixed;
-
-	// high resolution screens:
-	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-	    background-size: 200px 200px;
-	}
+	color: black;
+	background-color: white;
 }
+
 body {
-	-webkit-text-size-adjust: 100%; /* prevents iOS from changing font-size when switching to landscape mode */
-	overflow-x: hidden; // hide horizontal scrollbar because of horizontal page transitons
-}
-main {
-	display: block; // IE11 "main" element bugfix
-}
-ul {
-	list-style: none;
-}
-a {
-	// color: #1E0FBE; // google link color
-	color: $color-highlight;
-
-	&:hover {
-		// color: ligthen(#1E0FBE, 20);
-	}
-}
-article, aside, section {
-	a {
-		text-decoration: none;
-	}
-	a:visited {
-		// color: #609; // google link color
-	}
-	p a,
-	ul a {
-		@include animated-hover-underline(-0.2em, 1px, $color-highlight);
-	}
-}
-button {
-	background: none;
-	border: none;
-	cursor: pointer;
-	font-size: 1em;
-
-	&:focus {
-		outline: 0;
-	}
-}
-img,
-video,
-iframe {
-	max-width: 100%;
-}
-a img {
-	border: none;
+	overflow-x: hidden; // hide horizontal scrollbar in case of animations moving out of the visible horizontal space
 }
 
-.clear {
-	@include clear-float;
-}
 ::selection {
-	color: #FFF;
+	color: #fff;
 	background: #000;
 }
 ::-moz-selection {
-	color: #FFF;
+	color: #fff;
 	background: #000;
 }
-.animate {
-	transition: all .5s $easing-default;
-}
-.vertical-center-container {
-	display: table;
-	table-layout: fixed;
-	width: 100%;
-	height: 100%;
 
-	&.dynamic-height-with-min-height {
-		height: auto;
+a {
+	color: #1E0FBE; // google link color
 
-		.min-height { // = .vertical-center-element
-			height: 15em; // This is the min-height! Yours to override...
-		}
+	&:hover {
+		color: ligthen(#1E0FBE, 20);
 	}
+	&:visited {
+		color: #609; // google link color
+	}
+}
 
-	.vertical-center-element {
-		display: table-cell;
-		vertical-align: middle;
-	}
-}
-.hidden-text {
-	@include hide-text;
-	height: 0;
-	padding: 0;
-	margin: 0;
-}
-.assist {
-	position: absolute;
-	left: -999em;
-	font-size: 0;
-	opacity: 0;
-}
-.svg-definitions {
-	position: absolute;
-	height: 0;
-	visibility: hidden;
-}
-body .svg { // exlude modernizer's svg class on the html tag
-	svg {
-		width: 100%;
-		height: 100%;
-	}
-	img { // fallback img
-		width: 100%;
-		height: auto;
-	}
+img,
+video,
+iframe {
+	max-width: 100%; // responsive baby!
 }

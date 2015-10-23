@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/**
+ *	This box-sizing reset makes it easy to change the box-sizing for an element
+ *	but not for its children.
+ */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/**
+ *	In comparison the following box-sizing reset makes it easy to change the
+ *	box-sizing for an element and its children.
+ *
+ *	Source: http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+/* html {
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+} */
+
+body {
+	-webkit-text-size-adjust: 100%; /* prevents iOS from changing font-size when switching to landscape mode */
+}
+
+main {
+	display: block; // IE11 "main" element fix
+}
+
+ul {
+	list-style: none;
+}
+
+a img {
+	border: none;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+}

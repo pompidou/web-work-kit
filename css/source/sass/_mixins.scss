@@ -60,7 +60,6 @@
 
 }
 
-
 /**
  *
  * Prevent collapsing of the height of the container of floated elements.
@@ -74,7 +73,6 @@
 	}
 }
 
-
 /**
  *
  * Hides text inside an element. This way the text is still available for SEO and accessability.
@@ -84,6 +82,9 @@
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+	height: 0;
+	padding: 0;
+	margin: 0;
 }
 
 

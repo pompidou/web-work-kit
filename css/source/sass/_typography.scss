@@ -15,17 +15,7 @@ code {
 	// font-weight: normal;
 	font-weight: 300;
 }
-article p a, aside p a, section p a,
-article ul a, aside ul a, section ul a,
-.nav__link-text {
-	font-weight: 400;
-}
-.subtitle {
-	font-weight: 600;
-}
-h1, h2, h3, h4, h5, h6,
-.article__footer-message,
-.article__footer-message a {
+h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
 }
 
@@ -42,26 +32,17 @@ html {
 			font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-em,
-.about-intro p,
-.article__img-caption {
+em {
 	font-style: italic;
 }
 // {
 // 	text-decoration: underline;
 // }
-.header__site-part-title,
-.nav__link {
-	text-transform: uppercase;
-}
+// {
+// 	text-transform: uppercase;
+// }
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.01em;
-}
-.nav__link-text {
-	letter-spacing: 0.05em;
-}
-.header__site-part-title {
-	letter-spacing: 0.1em;
 }
 
 
@@ -71,97 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 /* size */
 html {
 	/* root */
-	font-size: pxToEm($font-size-base - 2px, $font-size-assumed-browser-default);
-
-	@include mq($mq-XS-plus) {
-		font-size: pxToEm($font-size-base, $font-size-assumed-browser-default);
-	}
-}
-.page > article {
-	@include mq($mq-S-plus) {
-		font-size: pxToEm(23px, $font-size-base);
-	}
-	@include mq($mq-M) {
-		font-size: pxToEm(26px, $font-size-base);
-	}
-	@include mq($mq-L) {
-		font-size: pxToEm(30px, $font-size-base);
-	}
-	@include mq($mq-XL) {
-		font-size: pxToEm(32px, $font-size-base);
-	}
-}
-
-.cv-timeline__content {
-	font-size: 0.75em;
-}
-.header__site-part-title {
-	font-size: 1em;
-}
-.about-intro p,
-.subtitle {
-	font-size: 1.05em;
-}
-h2,
-h3,
-.cv-timeline__title {
-	font-size: 1.25em;
-}
-.title {
-	font-size: 1.5em;
-}
-h1 {
-	font-size: 1.75em;
-}
-.overview-entry__title {
-	font-size: 1.25em;
-}
-
-@include mq($mq-XS-plus) {
-	.cv-timeline__content {
-		font-size: 0.85em;
-	}
-}
-@include mq($mq-S) {
-	.cv-timeline__content {
-		font-size: 1em;
-	}
-	.overview-entry__title {
-		font-size: 1.34em;
-	}
-	.header__site-part-title {
-		font-size: 1.5em;
-	}
-	.title {
-		font-size: 1.675em;
-	}
-}
-@include mq($mq-S-plus) {
-	.cv-timeline__content {
-		font-size: 0.75em;
-	}
-	.section-info,
-	.cv-timeline {
-		font-size: pxToEm(23px, $font-size-base, rem);
-	}
-}
-@include mq($mq-M) {
-	.cv-timeline__content {
-		font-size: 0.85em;
-	}
-	.header__site-part-title {
-		font-size: 2.5em;
-	}
-}
-@include mq($mq-L) {
-	.cv-timeline__content {
-		font-size: 0.9em;
-	}
-}
-@include mq($mq-XL) {
-	.cv-timeline__content {
-		font-size: 1em;
-	}
+	font-size: pxToEm($font-size-base, $font-size-assumed-browser-default);
 }
 
 
@@ -169,22 +60,13 @@ h1 {
 
 
 /* line height */
-html,
-.header__site-part-title {
+html {
 	line-height: 1;
 }
-h1, h2, h3, h4, h5, h6,
-.info__entry li {
+h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 }
-.cv-timeline__description p,
-.subtitle,
-.article__footer-message {
-	line-height: 1.4;
-}
-p,
-.article ul,
-.article__img-caption {
+p {
 	line-height: 1.8;
 }
 
@@ -199,5 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 * + h2, * + h3, * + h4, * + h5, * + h6 {
 	margin-top: 2em;
-	margin-bottom: 1em;
+}
+p {
+	margin-bottom: 1.5em;
 }

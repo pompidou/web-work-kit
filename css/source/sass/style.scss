@@ -20,17 +20,15 @@ COMPANY:        -
 @import "animation";
 @import "extendables";
 
+@import "reset";
+
 @import "typography";
 @import "base";
 
-@import "components/header";
-@import "components/page-transition";
-@import "components/click-effect";
+// import components
 
 @import "layout";
 
-@import "site-parts/about";
-@import "site-parts/overview";
-@import "site-parts/article";
+// import site-parts
 
 @import "general";
