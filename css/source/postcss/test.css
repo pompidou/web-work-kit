@@ -1,0 +1,7 @@
+.test-class {
+	display: flex;
+
+	&:hover {
+		background-color: #0db6ac;
+	}
+}
