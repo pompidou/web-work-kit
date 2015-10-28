@@ -1,6 +1,6 @@
 # Resources
 
-<a href="" target="_blank"></a>
+-	<a href="" target="_blank"></a>
 
 
 ## Web development news
@@ -21,6 +21,12 @@
 -	<a href="https://codyhouse.co/" target="_blank">Codyhouse</a>
 
 
+## Graphic assets
+
+-	<a href="https://thenounproject.com/" target="_blank">Noun Project</a> (vector icons)
+-	<a href="http://allthefreestock.com/" target="_blank">AllTheFreeStock</a> (collection of sites offering free stock images)
+
+
 ## Writing on the web
 
 -	<a href="http://daringfireball.net/projects/markdown/" target="_blank">Markdown Syntax</a>
@@ -31,3 +37,9 @@
 
 -	<a href="http://www.html-ipsum.com/" target="_blank">html ipsum</a>
 -	<a href="http://meettheipsums.com/" target="_blank">Meet the Ipsums</a>
+
+
+## Learning
+
+-	<a href="https://teamtreehouse.com/" target="_blank">treehouse</a>
+-	<a href="http://www.tutorialspoint.com/" target="_blank">tutorialspoint</a>

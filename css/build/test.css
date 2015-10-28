@@ -1,0 +1,11 @@
+.test-class {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.test-class:hover {
+	background-color: #0db6ac;
+}
+.test-class::after {
+	content: 'hey';
+}

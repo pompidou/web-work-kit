@@ -1,7 +1,12 @@
+$var: 'hey';
+
 .test-class {
 	display: flex;
 
 	&:hover {
 		background-color: #0db6ac;
+	}
+	&::after {
+		content: $var;
 	}
 }

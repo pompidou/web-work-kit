@@ -7,6 +7,7 @@ Table of contents:
 - [HTML](#html)
 - [Community support](#community-support)
 - [Task running / automation](#task-running-automation)
+- [Package managers](#package-managers)
 - [Content management](#content-management)
 - [Code/text editor](#codetext-editor)
 - [Version control](#version-control)
@@ -19,13 +20,38 @@ Table of contents:
 
 ## JavaScript
 
+The future:
+-	<a href="http://es6-features.org/" target="_blank">ECMAScript 6 — New Features</a>
+-	<a href="https://babeljs.io/" target="_blank">Babel</a> (transforms your next generation JavaScript into current generation one)
+
+Dependancy management / module definition:
+-	<a href="http://es6-features.org/#ValueExportImport" target="_blank">ES6 modules</a> (the future way)
+-	<a href="https://github.com/umdjs/umd" target="_blank">UMD (Universal Module Definition)</a> (CommonJS, AMD and global variable combined)
+-	<a href="http://browserify.org/" target="_blank">Browserify</a> (the Node.js way in the browser)
+-	<a href="http://webpack.github.io/" target="_blank">webpack</a>
+-	<a href="http://requirejs.org/" target="_blank">RequireJS</a> (AMD – Asynchronous Module Definition)
+-	http://nolanlawson.com/2015/10/19/the-struggles-of-publishing-a-javascript-library/ (current state of things)
+
+Libraries:
 -	<a href="https://modernizr.com/" target="_blank">Modernizr</a> (feature detection)
--	<a href="http://vuejs.org/" target="_blank">Vue.js</a> (reactive data binding)
+-	<a href="https://jquery.com/" target="_blank">jQuery</a>
+-	<a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> (lightbox & dialog)
+
+Animation libraries:
+-	<a href="http://julian.com/research/velocity/" target="_blank">Velocity.js</a>
+	-	<a href="http://codepen.io/sol0mka/full/kzyjJ" target="_blank">Demo</a>
+-	<a href="http://greensock.com/gsap" target="_blank">GSAP</a>
+-	<a href="http://snapsvg.io/" target="_blank">Snap.svg</a>
+-	<a href="http://ricostacruz.com/jquery.transit/" target="_blank">Transit</a> (JS controlled CSS animations)
+
+MV* frameworks:
+-	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
 
 
 ## CSS
 
 -	<a href="https://necolas.github.io/normalize.css/" target="_blank">normalize.css</a>
+-	<a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a>
 
 
 ## HTML
@@ -44,6 +70,13 @@ Table of contents:
 -	<a href="http://gruntjs.com/" target="_blank">Grunt</a>
 -	<a href="https://incident57.com/codekit/" target="_blank">CodeKit</a>
 -	<a href="https://prepros.io/" target="_blank">Prepros</a>
+
+
+## Package managers
+
+-	<a href="https://www.npmjs.com/" target="_blank">npm</a> (the package manager for Node.js)
+-	<a href="http://bower.io/" target="_blank">Bower</a> (a package manager for the web)
+-	<a href="http://brew.sh/" target="_blank">Homebrew</a> (a package manager for Mac OS X)
 
 
 ## Content management
@@ -135,3 +168,8 @@ TODO
 ## Database
 
 -	<a href="http://www.sequelpro.com/" target="_blank">Sequel Pro</a>
+
+
+## Performance testing
+
+-	<a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google PageSpeed Insights</a>
