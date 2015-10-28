@@ -21,6 +21,11 @@
 -	<a href="https://codyhouse.co/" target="_blank">Codyhouse</a>
 
 
+## Development
+
+-	<a href="http://youmightnotneedjquery.com/" target="_blank">YOU MIGHT NOT NEED JQUERY</a> (how to do things in vanilla javascript)
+
+
 ## Graphic assets
 
 -	<a href="https://thenounproject.com/" target="_blank">Noun Project</a> (vector icons)
