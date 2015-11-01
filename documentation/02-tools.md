@@ -2,6 +2,7 @@
 
 Table of contents:
 
+- [Cross browser testing](#cross-browser-testing)
 - [JavaScript](#javascript)
 - [CSS](#css)
 - [HTML](#html)
@@ -16,6 +17,13 @@ Table of contents:
 - [Video conversion](#video-conversion)
 - [Hosting](#hosting)
 - [Database](#database)
+- [Performance testing](#performance-testing)
+- [Other](#other)
+
+
+## Cross browser testing
+
+-	<a href="https://dev.modern.ie/" target="_blank">Modern.IE</a> (resources to test your site in different versions of Internet Explorer)
 
 
 ## JavaScript
@@ -43,6 +51,7 @@ Animation libraries:
 -	<a href="http://greensock.com/gsap" target="_blank">GSAP</a>
 -	<a href="http://snapsvg.io/" target="_blank">Snap.svg</a>
 -	<a href="http://ricostacruz.com/jquery.transit/" target="_blank">Transit</a> (JS controlled CSS animations)
+-	<a href="http://framerjs.com/" target="_blank">Framer</a> (create interactive UI animation prototypes)
 
 MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
@@ -52,10 +61,12 @@ MV* frameworks:
 
 -	<a href="https://necolas.github.io/normalize.css/" target="_blank">normalize.css</a>
 -	<a href="http://daneden.github.io/animate.css/" target="_blank">Animate.css</a>
+-	<a href="http://typewonder.com/" target="_blank">TypeWonder</a> (test different web fonts on your site)
 
 
 ## HTML
 
+-	<a href="https://gsnedders.html5.org/outliner/" target="_blank">HTML5 Outliner</a>
 -	<a href="http://emmet.io/" target="_blank">Emmet</a>
 
 
@@ -76,6 +87,7 @@ MV* frameworks:
 
 -	<a href="https://www.npmjs.com/" target="_blank">npm</a> (the package manager for Node.js)
 -	<a href="http://bower.io/" target="_blank">Bower</a> (a package manager for the web)
+	-	https://css-tricks.com/whats-great-bower/
 -	<a href="http://brew.sh/" target="_blank">Homebrew</a> (a package manager for Mac OS X)
 
 
@@ -146,6 +158,7 @@ Code hosting:
 -	<a href="https://www.adobe.com/products/illustrator.html" target="_blank">Illustrator</a>
 -	<a href="https://inkscape.org/en/" target="_blank">Inkscape</a>
 -	<a href="http://www.sketchapp.com/" target="_blank">Sketch</a>
+-	<a href="http://svg-edit.googlecode.com/svn/branches/stable/editor/svg-editor.html" target="_blank">SVG-edit</a> (web based svg editor)
 
 
 ## Video conversion
@@ -173,3 +186,8 @@ TODO
 ## Performance testing
 
 -	<a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google PageSpeed Insights</a>
+
+
+## Other
+
+-	<a href="https://manytricks.com/moom/" target="_blank">Moom</a> (mac app to easily arrange windows)

@@ -2,13 +2,14 @@
 
 var addsrc = require('gulp-add-src');
 var autoprefixer = require('autoprefixer');
+var browsersync = require('browser-sync');
 var cache = require('gulp-cache');
 var concat = require('gulp-concat');
 var cssnext = require('cssnext');
 var del = require('del');
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
-var livereload = require('gulp-livereload');
+// var livereload = require('gulp-livereload');
 var minifycss = require('gulp-minify-css');
 var notify = require('gulp-notify');
 var postcss = require('gulp-postcss');
@@ -17,6 +18,7 @@ var rename = require('gulp-rename');
 var rubysass = require('gulp-ruby-sass');
 // var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
+var webp = require('gulp-webp');
 
 gulp.task('css', function () {
 	var processors = [
@@ -79,16 +81,28 @@ gulp.task('images', function() {
 		.pipe(notify({message: 'images task complete'}));
 });
 
+gulp.task('images-webp', function () {
+	return gulp.src('./imagery/source/**/*.{gif,jpg,png}')
+		.pipe(webp())
+		.pipe(gulp.dest('./imagery/build'))
+		.pipe(notify({message: 'images-webp task complete'}));
+});
+
 gulp.task('clean', function(callback) {
 	del(['./css/build', './javascript/build', './imagery/build'], callback);
 });
 
-gulp.task('watch', function() {
+gulp.task('browsersync', function() {
+	browsersync({server: {baseDir: './'}});
+});
+
+gulp.task('watch', ['browsersync'], function() {
 	gulp.watch('./css/source/**/*', ['css']);
 	gulp.watch('./javascript/source/**/*', ['javascript-app']);
 	gulp.watch('./imagery/source/**/*', ['images']);
-	livereload.listen();
-	gulp.watch(['./css/build/**/*', './javascript/build/**/*', './imagery/build/**/*']).on('change', livereload.changed);
+	// livereload.listen();
+	// gulp.watch(['./css/build/**/*', './javascript/build/**/*', './imagery/build/**/*']).on('change', livereload.changed);
+	gulp.watch(['./css/build/**/*', './javascript/build/**/*', './imagery/build/**/*']).on('change', browsersync.reload);
 });
 
 gulp.task('default', ['clean'], function() {

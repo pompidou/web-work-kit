@@ -2,6 +2,18 @@
 
 -	<a href="" target="_blank"></a>
 
+Table of contents:
+
+- [Web development news](#web-development-news)
+- [Community](#community)
+- [UI / interaction design](#ui-interaction-design)
+- [Development](#development)
+- [Colours](#colours)
+- [Graphic assets](#graphic-assets)
+- [Writing on the web](#writing-on-the-web)
+- [Dummy content](#dummy-content)
+- [Learning](#learning)
+
 
 ## Web development news
 
@@ -23,7 +35,18 @@
 
 ## Development
 
+-	<a href="http://caniuse.com/" target="_blank">Can I use</a> (browser support tables)
+-	<a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a>
+-	<a href="http://devdocs.io/" target="_blank">DevDocs</a> (collection of API documentations)
 -	<a href="http://youmightnotneedjquery.com/" target="_blank">YOU MIGHT NOT NEED JQUERY</a> (how to do things in vanilla javascript)
+
+
+## Colours
+
+-	<a href="http://www.materialui.co/colors" target="_blank">Material UI Colors</a> (color grid)
+-	<a href="http://flatuicolors.com/" target="_blank">Flat UI Colors</a> (color grid)
+-	<a href="https://coolors.co/" target="_blank">Coolors</a> (color scheme generator)
+-	<a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a> (color scheme creator)
 
 
 ## Graphic assets
