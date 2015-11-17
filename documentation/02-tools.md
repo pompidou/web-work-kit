@@ -52,6 +52,9 @@ Animation libraries:
 -	<a href="http://snapsvg.io/" target="_blank">Snap.svg</a>
 -	<a href="http://ricostacruz.com/jquery.transit/" target="_blank">Transit</a> (JS controlled CSS animations)
 -	<a href="http://framerjs.com/" target="_blank">Framer</a> (create interactive UI animation prototypes)
+-	<a href="http://lmgonzalves.github.io/segment/" target="_blank">Segment</a> (SVG path strokes animation)
+-	<a href="http://paperjs.org/" target="_blank">Paper.js</a> (HTML5 Canvas framework)
+-	<a href="http://jonobr1.github.io/two.js/" target="_blank">Two.js</a> (two-dimensional drawing api, draws to svg, canvas, and webgl)
 
 MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
@@ -89,6 +92,7 @@ MV* frameworks:
 -	<a href="http://bower.io/" target="_blank">Bower</a> (a package manager for the web)
 	-	https://css-tricks.com/whats-great-bower/
 -	<a href="http://brew.sh/" target="_blank">Homebrew</a> (a package manager for Mac OS X)
+-	<a href="https://rvm.io/" target="_blank">Ruby Version Manager (RVM)</a>
 
 
 ## Content management
@@ -159,6 +163,7 @@ Code hosting:
 -	<a href="https://inkscape.org/en/" target="_blank">Inkscape</a>
 -	<a href="http://www.sketchapp.com/" target="_blank">Sketch</a>
 -	<a href="http://svg-edit.googlecode.com/svn/branches/stable/editor/svg-editor.html" target="_blank">SVG-edit</a> (web based svg editor)
+-	<a href="http://elrumordelaluz.github.io/draGGradients/" target="_blank">draGGradients</a> (CSS gradient editor)
 
 
 ## Video conversion
