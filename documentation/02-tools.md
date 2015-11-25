@@ -50,6 +50,7 @@ Animation libraries:
 	-	<a href="http://codepen.io/sol0mka/full/kzyjJ" target="_blank">Demo</a>
 -	<a href="http://greensock.com/gsap" target="_blank">GSAP</a>
 -	<a href="http://snapsvg.io/" target="_blank">Snap.svg</a>
+-	<a href="http://mojs.io/" target="_blank">mo · js</a> (motion graphics library for the web)
 -	<a href="http://ricostacruz.com/jquery.transit/" target="_blank">Transit</a> (JS controlled CSS animations)
 -	<a href="http://framerjs.com/" target="_blank">Framer</a> (create interactive UI animation prototypes)
 -	<a href="http://lmgonzalves.github.io/segment/" target="_blank">Segment</a> (SVG path strokes animation)
