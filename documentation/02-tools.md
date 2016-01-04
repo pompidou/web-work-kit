@@ -24,6 +24,7 @@ Table of contents:
 ## Cross browser testing
 
 -	<a href="https://dev.modern.ie/" target="_blank">Modern.IE</a> (resources to test your site in different versions of Internet Explorer)
+-	<a href="https://www.browserstack.com" target="_blank">BrowserStack</a> (web interface to access real devices runnning the desired operating system and browser)
 
 
 ## JavaScript
@@ -59,6 +60,11 @@ Animation libraries:
 
 MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
+
+Solutions:
+-	<a href="https://disqus.com/" target="_blank">Disqus</a> (comments)
+	-	<a href="https://help.disqus.com/customer/portal/articles/1104788-web-integration
+" target="_blank">Web Integration</a>
 
 
 ## CSS
@@ -121,6 +127,7 @@ Hosted with content access via API:
 Static site generators (no ui & no database):
 -	<a href="https://middlemanapp.com/" target="_blank">Middleman</a>
 -	<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+-	<a href="https://medium.com/objects-in-space/considering-a-static-site-tool-learn-gulp-2fd5f9821fc4#.gzqaz5xws" target="_blank">Gulp.js used as a static site generator</a>
 
 Creating a website without coding:
 -	<a href="http://www.squarespace.com/" target="_blank">Squarespace</a>
@@ -163,6 +170,7 @@ Code hosting:
 -	<a href="https://www.adobe.com/products/illustrator.html" target="_blank">Illustrator</a>
 -	<a href="https://inkscape.org/en/" target="_blank">Inkscape</a>
 -	<a href="http://www.sketchapp.com/" target="_blank">Sketch</a>
+	-	<a href="https://designcode.io/sketch-mastering" target="_blank">A Comprehensive Guide to Designing in Sketch</a>
 -	<a href="http://svg-edit.googlecode.com/svn/branches/stable/editor/svg-editor.html" target="_blank">SVG-edit</a> (web based svg editor)
 -	<a href="http://elrumordelaluz.github.io/draGGradients/" target="_blank">draGGradients</a> (CSS gradient editor)
 

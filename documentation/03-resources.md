@@ -32,6 +32,8 @@ Table of contents:
 -	<a href="http://tympanus.net/codrops/" target="_blank">Codrops</a>
 -	<a href="https://codyhouse.co/" target="_blank">Codyhouse</a>
 
+-	<a href="https://codyhouse.co/gem/page-scroll-effects/" target="_blank">Page Scroll Effects</a> (slides with scroll hijacking)
+
 
 ## Development
 
@@ -49,9 +51,17 @@ Table of contents:
 -	<a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a> (color scheme creator)
 
 
+## Graphical manipulation
+
+-	<a href="http://graphicdesign.stackexchange.com/questions/15475/convert-primitive-to-path-using-svg-format-in-illustrator" target="_blank">Illustrator: make compound path</a> (makes sure it gets exported as an actual <path> element in SVG)
+
+
 ## Graphic assets
 
 -	<a href="https://thenounproject.com/" target="_blank">Noun Project</a> (vector icons)
+-	<a href="http://svgicons.sparkk.fr/" target="_blank">SVG Icons</a> (copy & paste svg code)
+-	<a href="https://unsplash.com/" target="_blank">Unsplash</a> (free & beautiful hi-res stock images)
+-	<a href="https://source.unsplash.com/" target="_blank">Unsplash Source</a> (api to access random image from Unsplash, perfect for frontend prototypes)
 -	<a href="http://allthefreestock.com/" target="_blank">AllTheFreeStock</a> (collection of sites offering free stock images)
 
 
