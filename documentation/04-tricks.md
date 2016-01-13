@@ -12,16 +12,19 @@ If you can use Flexbox, then this is no problem at all. Otherwise:
 
 #### HTML
 
+```html
 	<div class="remaining-space-layout remaining-space-layout--right">
 		<div class="remaining-space-layout__defining-element" style="width: 100px;">I use only the width I need.</div>
 		<div class="remaining-space-layout__remaining-element">I use the remaining width.</div>
 	</div>
+```
 
 
 #### CSS (SASS)
 
 Using CSS tables:
 
+```scss
 	.remaining-space-layout {
 		display: table;
 		width: 100%;
@@ -33,9 +36,11 @@ Using CSS tables:
 	.remaining-space-layout__remaining-element {
 		width: 100%;
 	}
+```
 	
 Using floats:
 
+```scss
 	.remaining-space-layout {
 		// clearfix
 		&:before, &:after {
@@ -57,3 +62,4 @@ Using floats:
 	.remaining-space-layout__remaining-element {
 		overflow: hidden;
 	}
+```
