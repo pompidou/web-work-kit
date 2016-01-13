@@ -21,6 +21,7 @@ If you can use Flexbox, then this is no problem at all. Otherwise:
 #### CSS (SASS)
 
 Using CSS tables:
+
 	.remaining-space-layout {
 		display: table;
 		width: 100%;
@@ -34,6 +35,7 @@ Using CSS tables:
 	}
 	
 Using floats:
+
 	.remaining-space-layout {
 		// clearfix
 		&:before, &:after {
