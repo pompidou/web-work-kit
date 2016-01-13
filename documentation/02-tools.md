@@ -45,6 +45,7 @@ Libraries:
 -	<a href="https://modernizr.com/" target="_blank">Modernizr</a> (feature detection)
 -	<a href="https://jquery.com/" target="_blank">jQuery</a>
 -	<a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> (lightbox & dialog)
+-	<a href="https://github.com/aFarkas/lazysizes" target="_blank">lazysizes</a> (lazyloading of images and responsive images)
 
 Animation libraries:
 -	<a href="http://julian.com/research/velocity/" target="_blank">Velocity.js</a>
@@ -61,7 +62,7 @@ Animation libraries:
 MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
 
-Solutions:
+Third party solutions:
 -	<a href="https://disqus.com/" target="_blank">Disqus</a> (comments)
 	-	<a href="https://help.disqus.com/customer/portal/articles/1104788-web-integration
 " target="_blank">Web Integration</a>

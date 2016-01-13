@@ -42,12 +42,19 @@ Table of contents:
 -	<a href="http://devdocs.io/" target="_blank">DevDocs</a> (collection of API documentations)
 -	<a href="http://youmightnotneedjquery.com/" target="_blank">YOU MIGHT NOT NEED JQUERY</a> (how to do things in vanilla javascript)
 
+### Responsive images
+
+-	<a href="https://jakearchibald.com/2015/anatomy-of-responsive-images/" target="_blank">Reference by Jake Archibald</a>
+-	<a href="http://codepen.io/Tigt/post/when-responsive-images-get-ugly#height-and-width-constrained-srcset" target="_blank">Special use cases by Taylor Hunt</a>
+-	<a href="https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/parent-fit" target="_blank">How to set sizes when using object-fit</a>
+
 
 ## Colours
 
 -	<a href="http://www.materialui.co/colors" target="_blank">Material UI Colors</a> (color grid)
 -	<a href="http://flatuicolors.com/" target="_blank">Flat UI Colors</a> (color grid)
 -	<a href="https://coolors.co/" target="_blank">Coolors</a> (color scheme generator)
+-	<a href="http://www.colorfavs.com/" target="_blank">colorfavs</a> (color scheme generator)
 -	<a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a> (color scheme creator)
 
 
@@ -63,6 +70,7 @@ Table of contents:
 -	<a href="https://unsplash.com/" target="_blank">Unsplash</a> (free & beautiful hi-res stock images)
 -	<a href="https://source.unsplash.com/" target="_blank">Unsplash Source</a> (api to access random image from Unsplash, perfect for frontend prototypes)
 -	<a href="http://allthefreestock.com/" target="_blank">AllTheFreeStock</a> (collection of sites offering free stock images)
+-	<a href="http://facebook.github.io/design/devices" target="_blank">Images and Sketch files of popular devices by Facebook</a>
 
 
 ## Writing on the web
