@@ -67,7 +67,7 @@ Using floats:
 
 ## JavaScript
 
-### Detect Internet Explorer version based on user-agent sketch-mastering
+### Detect Internet Explorer version based on user-agent string
 
 ```javascript
 	var ua = navigator.userAgent;
