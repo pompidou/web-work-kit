@@ -63,3 +63,29 @@ Using floats:
 		overflow: hidden;
 	}
 ```
+
+
+## JavaScript
+
+### Detect Internet Explorer version based on user-agent sketch-mastering
+
+```javascript
+	var ua = navigator.userAgent;
+	
+	// Internet Explorer <= 10 / Newer Microsoft browsers won't match
+	if (ua.match(/MSIE/)) {
+
+	}
+	// Internet Explorer == 11
+	else if (ua.match(/Trident\/7.0/) && ua.match(/rv[ :]11/)) {
+
+	}
+	// Microsoft Edge
+	else if (ua.match(/Edge/)) {
+
+	}
+```
+
+Also see:  
+http://codepen.io/gapcode/pen/vEJNZN?editors=001  
+https://msdn.microsoft.com/en-us/library/hh869301(v=vs.85).aspx

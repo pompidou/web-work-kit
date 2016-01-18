@@ -37,10 +37,12 @@ Table of contents:
 
 ## Development
 
+-	<a href="https://github.com/jlevy/the-art-of-command-line" target="_blank">The Art of Command Line</a>
 -	<a href="http://caniuse.com/" target="_blank">Can I use</a> (browser support tables)
 -	<a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a>
 -	<a href="http://devdocs.io/" target="_blank">DevDocs</a> (collection of API documentations)
 -	<a href="http://youmightnotneedjquery.com/" target="_blank">YOU MIGHT NOT NEED JQUERY</a> (how to do things in vanilla javascript)
+
 
 ### Responsive images
 
@@ -56,6 +58,7 @@ Table of contents:
 -	<a href="https://coolors.co/" target="_blank">Coolors</a> (color scheme generator)
 -	<a href="http://www.colorfavs.com/" target="_blank">colorfavs</a> (color scheme generator)
 -	<a href="https://color.adobe.com/" target="_blank">Adobe Color CC</a> (color scheme creator)
+-	<a href="http://zerosixthree.se/detecting-media-queries-with-javascript/" target="_blank">Handling Media Queries in JavaScript</a> (non-redundant)
 
 
 ## Graphical manipulation
@@ -71,6 +74,7 @@ Table of contents:
 -	<a href="https://source.unsplash.com/" target="_blank">Unsplash Source</a> (api to access random image from Unsplash, perfect for frontend prototypes)
 -	<a href="http://allthefreestock.com/" target="_blank">AllTheFreeStock</a> (collection of sites offering free stock images)
 -	<a href="http://facebook.github.io/design/devices" target="_blank">Images and Sketch files of popular devices by Facebook</a>
+-	<a href="http://codepen.io/larsenwork/pen/admEZM" target="_blank">Social Vector Icons</a>
 
 
 ## Writing on the web
