@@ -45,6 +45,7 @@ Libraries:
 -	<a href="https://modernizr.com/" target="_blank">Modernizr</a> (feature detection)
 -	<a href="https://jquery.com/" target="_blank">jQuery</a>
 -	<a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> (lightbox & dialog)
+-	<a href="http://humaan.com/modaal/" target="_blank">Modaal</a> (WCAG 2.0 Level AA accessible modal window plugin)
 -	<a href="https://github.com/aFarkas/lazysizes" target="_blank">lazysizes</a> (lazyloading of images and responsive images)
 
 Animation libraries:
@@ -52,6 +53,7 @@ Animation libraries:
 	-	<a href="http://codepen.io/sol0mka/full/kzyjJ" target="_blank">Demo</a>
 -	<a href="http://greensock.com/gsap" target="_blank">GSAP</a>
 -	<a href="http://snapsvg.io/" target="_blank">Snap.svg</a>
+-	<a href="http://dynamicsjs.com/" target="_blank">Dynamics.js</a> (library to create physics-based animations)
 -	<a href="http://mojs.io/" target="_blank">mo · js</a> (motion graphics library for the web)
 -	<a href="http://ricostacruz.com/jquery.transit/" target="_blank">Transit</a> (JS controlled CSS animations)
 -	<a href="http://framerjs.com/" target="_blank">Framer</a> (create interactive UI animation prototypes)
@@ -61,6 +63,8 @@ Animation libraries:
 
 MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
+-	<a href="http://vuejs.org/" target="_blank">Vue.js</a>
+-	<a href="https://facebook.github.io/react/" target="_blank">React</a>
 
 Third party solutions:
 -	<a href="https://disqus.com/" target="_blank">Disqus</a> (comments)
@@ -109,6 +113,7 @@ Third party solutions:
 -	<a href="https://wordpress.org/" target="_blank">WordPress</a>
 	-	<a href="http://www.advancedcustomfields.com/" target="_blank">Advanced Custom Fields</a>
 -	<a href="https://grabaperch.com/" target="_blank">Perch</a>
+-	<a href="https://craftcms.com/" target="_blank">Craft CMS</a>
 -	<a href="http://pagekit.com/" target="_blank">Pagekit</a>
 -	<a href="http://anchorcms.com/" target="_blank">Anchor</a>
 
@@ -132,6 +137,7 @@ Static site generators (no ui & no database):
 
 Creating a website without coding:
 -	<a href="http://www.squarespace.com/" target="_blank">Squarespace</a>
+-	<a href="https://webflow.com/" target="_blank">Webflow</a>
 
 
 ## Code/text editor
@@ -206,3 +212,4 @@ TODO
 ## Other
 
 -	<a href="https://manytricks.com/moom/" target="_blank">Moom</a> (mac app to easily arrange windows)
+-	<a href="https://www.spectacleapp.com/" target="_blank">Spectacle</a> (mac app to easily arrange windows)

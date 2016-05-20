@@ -49,6 +49,7 @@ Table of contents:
 -	<a href="https://jakearchibald.com/2015/anatomy-of-responsive-images/" target="_blank">Reference by Jake Archibald</a>
 -	<a href="http://codepen.io/Tigt/post/when-responsive-images-get-ugly#height-and-width-constrained-srcset" target="_blank">Special use cases by Taylor Hunt</a>
 -	<a href="https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/parent-fit" target="_blank">How to set sizes when using object-fit</a>
+-	<a href="http://blog.cloudfour.com/responsive-images-101-part-2-img-required/" target="_blank">Responsive Images 101, Part 2: Img Required</a> (get currently loaded file of a responsive image)
 
 
 ## Colours
