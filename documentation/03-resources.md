@@ -32,6 +32,7 @@ Table of contents:
 -	<a href="http://tympanus.net/codrops/" target="_blank">Codrops</a>
 -	<a href="https://codyhouse.co/" target="_blank">Codyhouse</a>
 
+-	<a href="http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design" target="_blank">Motion with Meaning</a>
 -	<a href="https://codyhouse.co/gem/page-scroll-effects/" target="_blank">Page Scroll Effects</a> (slides with scroll hijacking)
 
 

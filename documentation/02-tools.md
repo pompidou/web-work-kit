@@ -14,6 +14,7 @@ Table of contents:
 - [Version control](#version-control)
 - [Local development environment](#local-development-environment)
 - [Graphical manipulation](#graphical-manipulation)
+- [Design](#design)
 - [Video conversion](#video-conversion)
 - [Hosting](#hosting)
 - [Database](#database)
@@ -60,6 +61,10 @@ Animation libraries:
 -	<a href="http://lmgonzalves.github.io/segment/" target="_blank">Segment</a> (SVG path strokes animation)
 -	<a href="http://paperjs.org/" target="_blank">Paper.js</a> (HTML5 Canvas framework)
 -	<a href="http://jonobr1.github.io/two.js/" target="_blank">Two.js</a> (two-dimensional drawing api, draws to svg, canvas, and webgl)
+
+Page transition libraries:
+-	<a href="https://github.com/miguel-perez/smoothState.js" target="_blank">smoothState.js</a>
+-	<a href="http://barbajs.org/index.html" target="_blank">barba.js</a>
 
 MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
@@ -180,6 +185,11 @@ Code hosting:
 	-	<a href="https://designcode.io/sketch-mastering" target="_blank">A Comprehensive Guide to Designing in Sketch</a>
 -	<a href="http://svg-edit.googlecode.com/svn/branches/stable/editor/svg-editor.html" target="_blank">SVG-edit</a> (web based svg editor)
 -	<a href="http://elrumordelaluz.github.io/draGGradients/" target="_blank">draGGradients</a> (CSS gradient editor)
+
+
+## Design
+
+- <a href="https://typeanything.io/">typeanything</a> (Design web typography in the browser)
 
 
 ## Video conversion
