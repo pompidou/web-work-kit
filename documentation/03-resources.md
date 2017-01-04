@@ -43,6 +43,9 @@ Table of contents:
 -	<a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a>
 -	<a href="http://devdocs.io/" target="_blank">DevDocs</a> (collection of API documentations)
 -	<a href="http://youmightnotneedjquery.com/" target="_blank">YOU MIGHT NOT NEED JQUERY</a> (how to do things in vanilla javascript)
+-	<a href="http://www.hugeinc.com/ideas/perspective/accessibility-and-you" target="_blank">Accessibility Basics</a>
+-	<a href="http://accessibility.athena-ict.com/aria/ARIA-accessibility-home.shtml" target="_blank">ARIA Website with examples</a>
+-	<a href="https://simple-regex.com/" target="_blank">Simple Regex Language</a>
 
 
 ### Responsive images
@@ -93,5 +96,6 @@ Table of contents:
 
 ## Learning
 
+-	<a href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web" target="_blank">Getting started with the Web</a> (MDN)
 -	<a href="https://teamtreehouse.com/" target="_blank">treehouse</a>
 -	<a href="http://www.tutorialspoint.com/" target="_blank">tutorialspoint</a>

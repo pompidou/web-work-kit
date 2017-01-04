@@ -45,9 +45,14 @@ Dependancy management / module definition:
 Libraries:
 -	<a href="https://modernizr.com/" target="_blank">Modernizr</a> (feature detection)
 -	<a href="https://jquery.com/" target="_blank">jQuery</a>
+-	<a href="http://momentjs.com/" target="_blank">Moment.js</a> (working with dates, times and durations)
 -	<a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> (lightbox & dialog)
 -	<a href="http://humaan.com/modaal/" target="_blank">Modaal</a> (WCAG 2.0 Level AA accessible modal window plugin)
+-	<a href="https://plyr.io/" target="_blank">Plyr</a> (a simple, accessible HTML5 media player, video, audio, youtube, vimeo)
 -	<a href="https://github.com/aFarkas/lazysizes" target="_blank">lazysizes</a> (lazyloading of images and responsive images)
+-	<a href="https://medium.com/this-also/whitewater-9b47f1e32ffe" target="_blank">Whitewater</a> (autoplay video on mobile)
+-	<a href="https://github.com/bfred-it/iphone-inline-video" target="_blank">iphone-inline-video</a> (autoplay video on the iphone)
+- <a href="https://www.sitepoint.com/5-ways-prevent-300ms-click-delay-mobile-devices/" target="_blank">Solutions to prevent the click delay on mobile OS's</a>
 
 Animation libraries:
 -	<a href="http://julian.com/research/velocity/" target="_blank">Velocity.js</a>
@@ -56,6 +61,8 @@ Animation libraries:
 -	<a href="http://snapsvg.io/" target="_blank">Snap.svg</a>
 -	<a href="http://dynamicsjs.com/" target="_blank">Dynamics.js</a> (library to create physics-based animations)
 -	<a href="http://mojs.io/" target="_blank">mo · js</a> (motion graphics library for the web)
+-	<a href="http://anime-js.com/" target="_blank">Anime</a> (flexible yet lightweight animation library)
+-	<a href="https://daniel-lundin.github.io/snabbt.js/" target="_blank">snabbt.js</a> (minimalistic animation library)
 -	<a href="http://ricostacruz.com/jquery.transit/" target="_blank">Transit</a> (JS controlled CSS animations)
 -	<a href="http://framerjs.com/" target="_blank">Framer</a> (create interactive UI animation prototypes)
 -	<a href="http://lmgonzalves.github.io/segment/" target="_blank">Segment</a> (SVG path strokes animation)
@@ -70,6 +77,7 @@ MV* frameworks:
 -	<a href="http://todomvc.com/" target="_blank">TodoMVC</a>
 -	<a href="http://vuejs.org/" target="_blank">Vue.js</a>
 -	<a href="https://facebook.github.io/react/" target="_blank">React</a>
+-	<a href="http://riotjs.com/" target="_blank">Riot</a> (minimalistic)
 
 Third party solutions:
 -	<a href="https://disqus.com/" target="_blank">Disqus</a> (comments)
@@ -189,7 +197,8 @@ Code hosting:
 
 ## Design
 
-- <a href="https://typeanything.io/">typeanything</a> (Design web typography in the browser)
+- <a href="https://typeanything.io/">typeanything</a> (design web typography in the browser)
+- <a href="http://www.ourownthing.co.uk/fontpairing/">Font Pairing</a> (finding google font pairings)
 
 
 ## Video conversion
